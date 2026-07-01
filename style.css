@@ -1,0 +1,97 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - navbar-height);
+    background-color: #f4f4f4;
+    text-align: center;
+    align-items: center;
+    padding: 100px 20px;
+    background:#F8FAFC;
+}
+
+.hero h1{
+    font-size:64px;
+    font-weight:800;
+    line-height:1.2;
+    color:#1E293B;
+}
+
+.hero p{
+    font-size:22px;
+    color:#64748B;
+    margin:25px 0;
+}
+
+.hero-content{
+    max-width:700px;
+    margin:auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1 rem 2rem;
+    background:#FFFFFF;
+    color: white;
+    border-bottom:1px solid #E2E8F0;
+    height:70px;
+    padding:0 60px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:#F8FAFC;
+    color:#1E293B;
+}
+
+button{
+    transition:.3s ease;
+}
+
+.btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background: #2563EB;
+    color: white;
+}
+
+.btn-secondary {
+    background: #22C55E;
+    color: white;
+}
+
+.btn-primary:hover{
+    background:#1D4ED8;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(37,99,235,.3);
+}
+
+.btn-secondary:hover{
+    background:#16A34A;
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(34,197,94,.3);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#2563EB;
+}
+
+footer{
+    padding:30px;
+    text-align:center;
+    background:white;
+    color:#64748B;
+    border-top:1px solid #E2E8F0;
+}
