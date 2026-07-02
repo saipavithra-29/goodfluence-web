@@ -1,0 +1,299 @@
+/* Landing Page CSS */
+
+/* Hero section */
+.hero{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - navbar-height);
+    background-color: #f4f4f4;
+    text-align: center;
+    align-items: center;
+    padding: 100px 20px;
+    background:#F8FAFC;
+}
+
+.hero h1{
+    font-size:64px;
+    font-weight:800;
+    line-height:1.2;
+    color:#1E293B;
+}
+
+.hero p{
+    font-size:22px;
+    color:#64748B;
+    margin:25px 0;
+}
+
+.hero-content{
+    max-width:700px;
+    margin:auto;
+}
+/* NavBar section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1 rem 2rem;
+    background:#FFFFFF;
+    color: white;
+    border-bottom:1px solid #E2E8F0;
+    height:70px;
+    padding:0 60px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:#F8FAFC;
+    color:#1E293B;
+}
+
+button{
+    transition:.3s ease;
+}
+
+.btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background: #2563EB;
+    color: white;
+}
+
+.btn-secondary {
+    background: #22C55E;
+    color: white;
+}
+
+.btn-primary:hover{
+    background:#1D4ED8;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(37,99,235,.3);
+}
+
+.btn-secondary:hover{
+    background:#16A34A;
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(34,197,94,.3);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#2563EB;
+}
+
+footer{
+    padding:30px;
+    text-align:center;
+    background:white;
+    color:#64748B;
+    border-top:1px solid #E2E8F0;
+}
+
+
+
+
+/* Login Page CSS */
+/* =========================
+   NAVBAR
+========================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+                 "Open Sans", "Helvetica Neue", sans-serif;
+
+    background-color: #F8FAFC;
+
+    color: #0F172A;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.logo{
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #2563EB;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logo:hover{
+    color: #1D4ED8;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+    padding: 0 60px;
+    gap: 60px;
+}
+
+.left-section, .right-section{
+    flex: 1;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-section h1{
+    font-size: 3rem;
+    color: #0F172A;
+    margin-bottom: 12px;
+}
+
+.left-section h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #2563EB;
+    margin-bottom: 20px;
+}
+
+.left-section p{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #64748B;
+    max-width: 450px;
+}
+
+.right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    width: 100%;
+    max-width: 420px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.login-form h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #0F172A;
+    margin-bottom: 30px;
+}
+
+.login-form label{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #334155;
+}
+
+.login-form input[type="email"], .login-form input[type="password"]{
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #CBD5E1;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.login-form input:focus{
+    outline: none;
+    border-color: #2563EB;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+}
+
+.login-form input::placeholder{
+    color: #94A3B8;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.options a{
+    color: #2563EB;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.options a:hover{
+    text-decoration: underline;
+}
+
+.login-form button{
+    width: 100%;
+    padding: 14px;
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-form button:hover{
+    background-color: #1D4ED8;
+}
+
+.register-text{
+    text-align: center;
+    margin-top: 25px;
+    color: #64748B;
+}
+
+.register-text a{
+    color: #2563EB;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-text a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #64748B;
+    font-size: 0.9rem;
+    border-top: 1px solid #E2E8F0;
+}
+
