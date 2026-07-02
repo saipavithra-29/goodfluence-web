@@ -6,25 +6,31 @@ A social platform where positive actions create real influence.
 
 ## About
 
-Goodfluence is a social media platform that encourages users to share positive actions, inspire others, and build a community based on kindness instead of negativity.
+Goodfluence is a social media platform that I'm building to encourage people to share positive actions and meaningful stories. The goal is to create a space where kindness and helpful actions are valued more than negativity.
 
-This project is being developed as a full-stack web application.
+This is a full-stack web development project that I'm building to improve my web development skills while learning new technologies.
 
 ---
 
 ## Current Progress
 
 ### ✅ Completed
-- GitHub repository created
-- Git installed and configured
-- Project connected to GitHub
-- Landing page UI
-- Responsive navigation bar
-- Hero section
-- Footer
+
+- Created the GitHub repository
+- Installed and configured Git
+- Connected the project to GitHub
+- Designed the landing page
+- Built the navigation bar
+- Created the hero section
+- Added the footer
+- Built the login page
+- Created a semantic login form
+- Used Flexbox for the page layout
+- Styled the login form, inputs, and buttons
 
 ### 🚧 Currently Working On
-- Login page
+
+- Register page
 
 ---
 
@@ -32,6 +38,7 @@ This project is being developed as a full-stack web application.
 
 - HTML5
 - CSS3
+- Flexbox
 - Git
 - GitHub
 
@@ -39,26 +46,49 @@ This project is being developed as a full-stack web application.
 
 ## Project Structure
 
-```
+```text
 goodfluence-web/
-│── index.html
-│── login.html
-│── style.css
-│── README.md
-└── images/
+│
+├── assets/
+│   ├── icons/
+│   └── images/
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── index.html
+├── login.html
+├── register.html
+└── README.md
 ```
 
 ---
 
-## Future Features
+## What I've Learned
 
-- User authentication
+- Semantic HTML
+- CSS Flexbox
+- CSS Box Model
+- Margin and Padding
+- Form structure and labels
+- CSS Transitions
+- Git and GitHub basics
+
+---
+
+## Future Plans
+
+- User registration
+- Login authentication
 - User profiles
 - Home feed
-- Create good deed posts
-- Reward points system
+- Create and share posts
+- Reward points
+- Badges
 - Leaderboard
-- Badges and achievements
 - Child-safe content moderation
 - Admin dashboard
 
@@ -67,3 +97,5 @@ goodfluence-web/
 ## Author
 
 Sai Pavithra
+
+B.Tech Student | Learning Full-Stack Web Development
