@@ -297,3 +297,148 @@ footer{
     border-top: 1px solid #E2E8F0;
 }
 
+
+/* Register Page CSS */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.logo{
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #2563EB;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logo:hover{
+    color: #1D4ED8;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+    padding: 0 60px;
+    gap: 60px;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-section h1{
+    font-size: 3rem;
+    color: #0F172A;
+    margin-bottom: 12px;
+}
+
+.left-section h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #2563EB;
+    margin-bottom: 20px;
+}
+
+.left-section p{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #64748B;
+    max-width: 450px;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 450px;
+}
+
+.register-form h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #0F172A;
+    margin-bottom: 30px;
+}
+
+.register-form label{
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 6px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"]{
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #CBD5E1;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.options{
+    margin-bottom: 24px;
+}
+
+.terms{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.terms input{
+    width: auto;
+    margin: 0;
+}
+
+.terms label{
+    margin: 0;
+    font-size: 0.95rem;
+    color: #475569;
+}
+
+.btn-primary{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-link{
+    margin-top: 20px;
+    text-align: center;
+    color: #64748B;
+    font-size: 0.95rem;
+}
+
+.login-link a{
+    color: #2563EB;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.login-link a:hover{
+    color: #1D4ED8;
+    text-decoration: underline;
+}
