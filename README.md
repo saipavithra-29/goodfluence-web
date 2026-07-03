@@ -27,11 +27,14 @@ This is a full-stack web development project that I'm building to improve my web
 - Created a semantic login form
 - Used Flexbox for the page layout
 - Styled the login form, inputs, and buttons
+- Built the register page
+- Created a semantic registration form
+- Added form validation attributes (`required`, `autocomplete`)
+- Reused CSS components across multiple pages
 
 ### 🚧 Currently Working On
 
-- Register page
-
+- Responsive design
 ---
 
 ## Technologies Used
@@ -73,7 +76,9 @@ goodfluence-web/
 - CSS Flexbox
 - CSS Box Model
 - Margin and Padding
-- Form structure and labels
+- Form structure and accessibility
+- HTML form attributes (`required`, `autocomplete`)
+- Reusing CSS across multiple pages
 - CSS Transitions
 - Git and GitHub basics
 
@@ -98,4 +103,5 @@ goodfluence-web/
 
 Sai Pavithra
 
-B.Tech Student | Learning Full-Stack Web Development
+B.Tech Student
+Learning Full-Stack Web Development
