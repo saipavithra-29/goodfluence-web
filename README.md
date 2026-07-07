@@ -32,9 +32,15 @@ This is a full-stack web development project that I'm building to improve my web
 - Added form validation attributes (`required`, `autocomplete`)
 - Reused CSS components across multiple pages
 
+### ✅ Completed
+
+- Responsive landing page
+- Responsive login page
+- Responsive register page
+
 ### 🚧 Currently Working On
 
-- Responsive design
+- JavaScript fundamentals
 ---
 
 ## Technologies Used
@@ -81,6 +87,9 @@ goodfluence-web/
 - Reusing CSS across multiple pages
 - CSS Transitions
 - Git and GitHub basics
+- CSS Media Queries
+- Responsive layouts using Flexbox
+- Mobile-first testing with browser developer tools
 
 ---
 
