@@ -31,6 +31,10 @@ This is a full-stack web development project that I'm building to improve my web
 - Created a semantic registration form
 - Added form validation attributes (`required`, `autocomplete`)
 - Reused CSS components across multiple pages
+- Added JavaScript to the login page
+- Implemented basic login form validation
+- Displayed validation messages dynamically
+- Added client-side input validation
 
 ### ✅ Completed
 
@@ -90,6 +94,11 @@ goodfluence-web/
 - CSS Media Queries
 - Responsive layouts using Flexbox
 - Mobile-first testing with browser developer tools
+- JavaScript DOM manipulation
+- Event listeners
+- Form submission handling
+- Reading user input with `.value`
+- Basic client-side form validation
 
 ---
 
