@@ -25,32 +25,33 @@ This is a full-stack web development project that I'm building to improve my web
 - Added the footer
 - Built the login page
 - Created a semantic login form
-- Used Flexbox for the page layout
-- Styled the login form, inputs, and buttons
 - Built the register page
 - Created a semantic registration form
-- Added form validation attributes (`required`, `autocomplete`)
+- Used Flexbox for page layouts
 - Reused CSS components across multiple pages
+- Made the landing page responsive
+- Made the login page responsive
+- Made the register page responsive
 - Added JavaScript to the login page
-- Implemented basic login form validation
+- Implemented login form validation
+- Added JavaScript to the register page
+- Implemented register form validation
+- Added password confirmation validation
+- Added Terms & Conditions validation
 - Displayed validation messages dynamically
-- Added client-side input validation
-
-### ✅ Completed
-
-- Responsive landing page
-- Responsive login page
-- Responsive register page
+- Added client-side form validation
 
 ### 🚧 Currently Working On
 
-- JavaScript fundamentals
+- Building the Home page
+
 ---
 
 ## Technologies Used
 
 - HTML5
 - CSS3
+- JavaScript (ES6)
 - Flexbox
 - Git
 - GitHub
@@ -90,22 +91,27 @@ goodfluence-web/
 - HTML form attributes (`required`, `autocomplete`)
 - Reusing CSS across multiple pages
 - CSS Transitions
-- Git and GitHub basics
 - CSS Media Queries
 - Responsive layouts using Flexbox
-- Mobile-first testing with browser developer tools
+- Mobile testing using browser Developer Tools
 - JavaScript DOM manipulation
 - Event listeners
 - Form submission handling
 - Reading user input with `.value`
+- Handling checkbox input with `.checked`
+- Preventing default form submission
+- Password confirmation validation
 - Basic client-side form validation
+- Updating page content dynamically
+- Git and GitHub basics
 
 ---
 
 ## Future Plans
 
-- User registration
-- Login authentication
+- Improve form validation
+- Build the Home page
+- User authentication
 - User profiles
 - Home feed
 - Create and share posts
@@ -113,6 +119,8 @@ goodfluence-web/
 - Badges
 - Leaderboard
 - Child-safe content moderation
+- Firebase Authentication
+- Firestore Database
 - Admin dashboard
 
 ---
@@ -121,5 +129,6 @@ goodfluence-web/
 
 Sai Pavithra
 
-B.Tech Student
+B.Tech CSE Student
+
 Learning Full-Stack Web Development
