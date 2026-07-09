@@ -44,6 +44,7 @@ This is a full-stack web development project that I'm building to improve my web
 ### 🚧 Currently Working On
 
 - Building the Home page
+- Improving form validation and user experience
 
 ---
 
@@ -90,9 +91,8 @@ goodfluence-web/
 - Form structure and accessibility
 - HTML form attributes (`required`, `autocomplete`)
 - Reusing CSS across multiple pages
-- CSS Transitions
 - CSS Media Queries
-- Responsive layouts using Flexbox
+- Responsive layouts
 - Mobile testing using browser Developer Tools
 - JavaScript DOM manipulation
 - Event listeners
@@ -103,7 +103,7 @@ goodfluence-web/
 - Password confirmation validation
 - Basic client-side form validation
 - Updating page content dynamically
-- Git and GitHub basics
+- Git and GitHub workflow
 
 ---
 
@@ -115,6 +115,7 @@ goodfluence-web/
 - User profiles
 - Home feed
 - Create and share posts
+- Like and comment on posts
 - Reward points
 - Badges
 - Leaderboard
