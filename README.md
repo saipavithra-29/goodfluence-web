@@ -79,6 +79,7 @@ goodfluence-web/
 ├── js/
 │   └── script.js
 │
+├──home.html
 ├── index.html
 ├── login.html
 ├── register.html
