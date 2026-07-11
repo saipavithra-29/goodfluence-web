@@ -40,11 +40,16 @@ This is a full-stack web development project that I'm building to improve my web
 - Added Terms & Conditions validation
 - Displayed validation messages dynamically
 - Added client-side form validation
+- Created the home page
+- Built the home page layout
+- Added the left sidebar
+- Added the create post section
+- Added sample post cards
+- Added the right sidebar
 
 ### 🚧 Currently Working On
 
-- Building the Home page
-- Improving form validation and user experience
+- Styling the home page
 
 ---
 
@@ -104,6 +109,9 @@ goodfluence-web/
 - Basic client-side form validation
 - Updating page content dynamically
 - Git and GitHub workflow
+- Semantic page layout using `<aside>` and `<section>`
+- Structuring a social media interface
+- Planning reusable page components
 
 ---
 
