@@ -46,10 +46,17 @@ This is a full-stack web development project that I'm building to improve my web
 - Added the create post section
 - Added sample post cards
 - Added the right sidebar
+- Styled the home page
+- Built a three-column home page layout
+- Styled the left sidebar
+- Styled the create post section
+- Styled post cards
+- Styled the right sidebar
+- Made the home page responsive
 
 ### 🚧 Currently Working On
 
-- Styling the home page
+- Adding interactivity to the home page
 
 ---
 
@@ -113,6 +120,10 @@ goodfluence-web/
 - Semantic page layout using `<aside>` and `<section>`
 - Structuring a social media interface
 - Planning reusable page components
+- CSS Flexbox for multi-column layouts
+- Sticky sidebars using `position: sticky`
+- Building reusable card components
+- Responsive layouts for dashboards
 
 ---
 
