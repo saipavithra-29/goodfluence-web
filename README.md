@@ -53,10 +53,14 @@ This is a full-stack web development project that I'm building to improve my web
 - Styled post cards
 - Styled the right sidebar
 - Made the home page responsive
+- Added dynamic post creation
+- Displayed posts without reloading the page
+- Added timestamps to new posts
+- Implemented post deletion
 
 ### 🚧 Currently Working On
 
-- Adding interactivity to the home page
+- Enhancing home page interactions
 
 ---
 
@@ -124,6 +128,12 @@ goodfluence-web/
 - Sticky sidebars using `position: sticky`
 - Building reusable card components
 - Responsive layouts for dashboards
+- Creating DOM elements dynamically
+- Using `createElement()`
+- Using `innerHTML`
+- Inserting elements with `prepend()`
+- Removing elements with `.remove()`
+- Working with JavaScript `Date`
 
 ---
 
