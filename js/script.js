@@ -90,3 +90,45 @@ if (registerForm) {
         }
     });
 }
+// =======================
+// Home Page
+// =======================
+
+const postInput = document.querySelector("#post-input");
+const postButton = document.querySelector("#post-button");
+const postsContainer = document.querySelector("#posts-container");
+
+if (postButton) {
+    postButton.addEventListener("click", function () {
+        if (postInput.value.trim() === "") {
+            alert("Please write something before posting.");
+            return;
+        }
+        const newPost = document.createElement("div");
+        newPost.classList.add("post-card");
+        const now = new Date();
+
+        const currentTime = now.toLocaleTimeString([], {
+            hour: "2-digit",
+            minute: "2-digit"
+        });
+
+        newPost.innerHTML = `
+            <h3>You</h3>
+            <p class="post-time">${currentTime}</p>
+            <p>${postInput.value}</p>
+
+            <button class="delete-post">
+                Delete
+            </button>
+        `;
+        const deleteButton = newPost.querySelector(".delete-post");
+        deleteButton.addEventListener("click", function () {
+            newPost.remove();
+
+        });
+        postsContainer.prepend(newPost);
+        postInput.value = "";
+    });
+}
+

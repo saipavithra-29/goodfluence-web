@@ -672,3 +672,18 @@ main {
 
 }
 
+.delete-post {
+    margin-top: 16px;
+    background-color: #EF4444;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-post:hover {
+    background-color: #DC2626;
+}
+
