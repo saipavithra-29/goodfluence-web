@@ -97,8 +97,36 @@ if (registerForm) {
 const postInput = document.querySelector("#post-input");
 const postButton = document.querySelector("#post-button");
 const postsContainer = document.querySelector("#posts-container");
+const characterCount = document.querySelector("#character-count");
 
 if (postButton) {
+
+    postInput.addEventListener("input", function () {
+
+        if (postInput.value.length > 200) {
+            postInput.value = postInput.value.substring(0, 200);
+        }
+
+        const length = postInput.value.length;
+
+        characterCount.textContent = `${length} / 200 characters`;
+
+        if (length >= 200) {
+
+            characterCount.style.color = "#DC2626";
+
+        } else if (length >= 150) {
+
+            characterCount.style.color = "#EA580C";
+
+        } else {
+
+            characterCount.style.color = "#64748B";
+
+        }
+
+    });
+
     postButton.addEventListener("click", function () {
         if (postInput.value.trim() === "") {
             alert("Please write something before posting.");
@@ -115,14 +143,40 @@ if (postButton) {
 
         newPost.innerHTML = `
             <h3>You</h3>
+
             <p class="post-time">${currentTime}</p>
+
             <p>${postInput.value}</p>
+
+            <button class="like-post">
+                🤍 Like
+            </button>
 
             <button class="delete-post">
                 Delete
             </button>
         `;
         const deleteButton = newPost.querySelector(".delete-post");
+        const likeButton = newPost.querySelector(".like-post");
+
+        likeButton.addEventListener("click", function () {
+
+            if (likeButton.textContent === "🤍 Like") {
+
+                likeButton.textContent = "❤️ Liked";
+                likeButton.style.backgroundColor = "#FEE2E2";
+                likeButton.style.color = "#DC2626";
+
+            } else {
+
+                likeButton.textContent = "🤍 Like";
+                likeButton.style.backgroundColor = "#E2E8F0";
+                likeButton.style.color = "#334155";
+
+            }
+
+        });
+
         deleteButton.addEventListener("click", function () {
             newPost.remove();
 
@@ -132,3 +186,12 @@ if (postButton) {
     });
 }
 
+
+
+if (postButton) {
+    postInput.addEventListener("input", function () {
+
+        characterCount.textContent = `${postInput.value.length} / 200 characters`;
+
+    });
+}

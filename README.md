@@ -57,10 +57,15 @@ This is a full-stack web development project that I'm building to improve my web
 - Displayed posts without reloading the page
 - Added timestamps to new posts
 - Implemented post deletion
+- Added like functionality to posts
+- Implemented like/unlike toggle behavior
+- Added visual feedback for liked posts
+- Added live character counter for posts
+- Added character limit warning colors
 
 ### 🚧 Currently Working On
 
-- Enhancing home page interactions
+- Adding more social media features
 
 ---
 
@@ -134,6 +139,11 @@ goodfluence-web/
 - Inserting elements with `prepend()`
 - Removing elements with `.remove()`
 - Working with JavaScript `Date`
+- Handling click events for dynamic elements
+- Updating element text using textContent
+- Changing element styles using JavaScript
+- Listening to input events
+- Tracking input length dynamically
 
 ---
 
