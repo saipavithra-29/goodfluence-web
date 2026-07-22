@@ -155,7 +155,57 @@ if (postButton) {
             <button class="delete-post">
                 Delete
             </button>
+
+            <div class="comment-section">
+
+                <input
+                    type="text"
+                    class="comment-input"
+                    placeholder="Write a comment..."
+                >
+
+                <button class="comment-button" type="button">
+                    Comment
+                </button>
+
+                <p class="comment-count">💬 0 Comments</p>
+
+<div class="comments-container"></div>
+
+            </div>
         `;
+const commentInput = newPost.querySelector(".comment-input");
+const commentButton = newPost.querySelector(".comment-button");
+const commentsContainer = newPost.querySelector(".comments-container");
+const commentCount = newPost.querySelector(".comment-count");
+
+let commentCountValue = 0;
+
+commentButton.addEventListener("click", function () {
+
+    if (commentInput.value.trim() === "") {
+        return;
+    }
+
+    const newComment = document.createElement("p");
+
+    newComment.textContent = commentInput.value;
+
+    commentsContainer.append(newComment);
+
+    commentCountValue++;
+
+
+if (commentCountValue === 1) {
+    commentCount.textContent = "💬 1 Comment";
+} else {
+    commentCount.textContent = `💬 ${commentCountValue} Comments`;
+}
+
+    commentInput.value = "";
+
+});
+
         const deleteButton = newPost.querySelector(".delete-post");
         const likeButton = newPost.querySelector(".like-post");
 
