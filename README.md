@@ -62,6 +62,10 @@ This is a full-stack web development project that I'm building to improve my web
 - Added visual feedback for liked posts
 - Added live character counter for posts
 - Added character limit warning colors
+- Added dynamic comment creation
+- Added empty comment validation
+- Styled the comment section
+- Added dynamic comment count
 
 ### 🚧 Currently Working On
 
@@ -112,7 +116,7 @@ goodfluence-web/
 - Margin and Padding
 - Form structure and accessibility
 - HTML form attributes (`required`, `autocomplete`)
-- Reusing CSS across multiple pages
+- Reusing CSS components across multiple pages
 - CSS Media Queries
 - Responsive layouts
 - Mobile testing using browser Developer Tools
@@ -140,10 +144,18 @@ goodfluence-web/
 - Removing elements with `.remove()`
 - Working with JavaScript `Date`
 - Handling click events for dynamic elements
-- Updating element text using textContent
+- Updating element text using `textContent`
 - Changing element styles using JavaScript
 - Listening to input events
 - Tracking input length dynamically
+- Handling input events for live character counting
+- Using `querySelector()` within dynamically created elements
+- Using `append()` to add dynamic elements
+- Managing counters with JavaScript variables
+- Dynamically updating styles based on input length
+- Building dynamic comment functionality
+- Implementing like/unlike interactions
+- Creating interactive social media features
 
 ---
 
